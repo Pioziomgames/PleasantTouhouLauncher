@@ -13,7 +13,11 @@ A Launcher for Touhou games with a pleasant look.
 - Support for games that need to be launched with administrator privileges
 - Custom icons for custom games (icons for official games can be changed by replacing the png contained in the GameIcons directory)
 ## Screenshots
-
+![MainWindow](https://github.com/Pioziomgames/PleasantTouhouLauncher/blob/master/Assets/MainWindow.png)
+![Games](https://github.com/Pioziomgames/PleasantTouhouLauncher/blob/master/Assets/Settings.png)
+![Games](https://github.com/Pioziomgames/PleasantTouhouLauncher/blob/master/Assets/EditGame.png)
+![Games](https://github.com/Pioziomgames/PleasantTouhouLauncher/blob/master/Assets/Games.png)
+![MainWindow](https://github.com/Pioziomgames/PleasantTouhouLauncher/blob/master/Assets/MainWindow2.png)
 
 
 
