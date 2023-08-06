@@ -112,8 +112,8 @@ namespace PTL.Forms
                 AdminChk.Checked = customGameEntry.Value.RunAsAdmin;
                 UseThcrapChk.Checked = customGameEntry.Value.UseThcrap;
                 OriginalName = customGameEntry.Value.Name;
-                ConfigChk.Checked = gameEntry.Value.UseConfig;
-                ConfigPathTextBox.Text = gameEntry.Value.ConfigPath;
+                ConfigChk.Checked = customGameEntry.Value.UseConfig;
+                ConfigPathTextBox.Text = customGameEntry.Value.ConfigPath;
             }
             else
             {
