@@ -82,6 +82,8 @@ namespace PTL.Forms
                 GameLbl.Enabled = false;
                 GamePathTextBox.Text = gameEntry.Value.GamePath;
                 AdminChk.Checked = gameEntry.Value.RunAsAdmin;
+                ConfigChk.Checked = gameEntry.Value.UseConfig;
+                ConfigPathTextBox.Text = gameEntry.Value.ConfigPath;
                 if (gameEntry.Value.PC98)
                 {
                     PC98 = true;
@@ -110,6 +112,8 @@ namespace PTL.Forms
                 AdminChk.Checked = customGameEntry.Value.RunAsAdmin;
                 UseThcrapChk.Checked = customGameEntry.Value.UseThcrap;
                 OriginalName = customGameEntry.Value.Name;
+                ConfigChk.Checked = gameEntry.Value.UseConfig;
+                ConfigPathTextBox.Text = gameEntry.Value.ConfigPath;
             }
             else
             {
